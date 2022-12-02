@@ -1,0 +1,27 @@
+{
+  "name": "binance-real-time-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silvasss/Binance-real-time-websocket.git"
+  },
+  "author": "Silvasss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silvasss/Binance-real-time-websocket/issues"
+  },
+  "homepage": "https://github.com/Silvasss/Binance-real-time-websocket#readme",
+  "dependencies": {
+    "binance": "github:karthik947/binance",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "socket.io": "^4.5.2"
+  }
+}
